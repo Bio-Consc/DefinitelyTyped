@@ -10,6 +10,7 @@ export interface PushNotificationPermissions {
     alert?: boolean;
     badge?: boolean;
     sound?: boolean;
+    critical?: boolean;
 }
 
 export interface PushNotification {
